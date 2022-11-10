@@ -18,7 +18,6 @@ int pageCount(int n, int p)
     return std::min(p/2, n/2 - p/2);
 }
 
-
 int pageCount2(int n, int p)
 {
     int total = n / 2;
